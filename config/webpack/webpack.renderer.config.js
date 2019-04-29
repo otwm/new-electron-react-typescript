@@ -13,7 +13,7 @@ module.exports = merge.smart(baseConfig, {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts|\.tsx$/,
         include: [
           path.resolve(__dirname, 'src')
         ],
